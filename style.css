@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.logo span{
+    height: 40px;
+    margin-right: 5px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu ul li{
+    cursor: pointer;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 600;
+} 
+.menu ul li:hover{
+    color: #C24914;
+}
+.c{
+    margin-right: 30px;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+background: #C24914;
+border: none;
+color: white;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+.h{
+    font-size: 46px;
+    font-weight: 700;
+    width: 400px;
+}
+.t{
+    font-size: 18px;
+    font-weight: 400;
+    width: 400px;
+    color: gray;
+}
+.s{
+    margin-right: 30px;
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+background: #C24914;
+border: none;
+color: white;
+}
+.right img{
+    height: 450px;
+    width: 450px;
+}
+.hero-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+.hero-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 100px;
+}
+
+.box{
+    margin-top: 50px;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 950px;
+height: 120px;
+background: #F9E0AE;
+}
+.b-1{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    background-color: white;
+}
+.b-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    background-color: white;
+}
+.b-3{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    background-color: #C24914;;
+}
